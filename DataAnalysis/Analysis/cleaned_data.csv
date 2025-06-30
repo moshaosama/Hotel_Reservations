@@ -1,0 +1,256 @@
+,hotel_id,hotel_name,SOURCE,price,base_price,checkIn,checkOut,count,rating,Info,latitude,longitude
+1,9702375,Rosh Rayhaan by Rotana,Official Site,813.75,693.75,2025-01-02,2025-01-03,1311,4.5,"['Free breakfast available', 'Free cancellation']",24.700346,46.682137
+3,24143026,Joudyan Hotel,MakeMyTrip,588.75,472.5,2025-01-02,2025-01-03,317,5.0,"['Free breakfast available', 'Free cancellation']",24.713552,46.675297
+8,15239002,Shaza Riyadh,Booking.com,652.5,652.5,2025-01-02,2025-01-03,176,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.675924,46.7792
+15,3349253,Carawan Al Fahad Hotel,Booking.com,532.5,495.0,2025-01-02,2025-01-03,54,4.0,"['Free breakfast available', 'Free cancellation']",24.711273,46.671043
+17,810042,Continent Al Waha Hotel,MakeMyTrip,795.0,701.25,2025-01-02,2025-01-03,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+19,3250538,Al Mashreq Boutique Hotel,Booking.com,750.0,750.0,2025-01-02,2025-01-03,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+20,10131963,Spectrums Hotel Riyadh,Booking.com,562.5,562.5,2025-01-02,2025-01-03,189,4.5,"['Free breakfast available', 'Free cancellation']",24.700665,46.678635
+22,1748545,Executives Hotel - Olaya,Booking.com,615.0,540.0,2025-01-02,2025-01-03,165,4.0,"['Free breakfast available', 'Free cancellation']",24.70869,46.678
+31,3879255,OYO 146 Al Asemah Hotel,Expedia,266.25,266.25,2025-01-02,2025-01-03,3,3.5,"['Free breakfast available', 'Free cancellation']",24.641687,46.72113
+38,24143026,Joudyan Hotel,Booking.com,735.0,637.5,2025-01-29,2025-02-03,317,5.0,"['Free breakfast available', 'Free cancellation']",24.713552,46.675297
+43,15239002,Shaza Riyadh,Booking.com,652.5,652.5,2025-01-29,2025-02-03,176,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.675924,46.7792
+49,15215188,Fairmont Riyadh,Fairmont,1890.0,1702.5,2025-01-29,2025-02-03,220,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.808397,46.71805
+50,3349253,Carawan Al Fahad Hotel,MakeMyTrip,517.5,450.0,2025-01-29,2025-02-03,54,4.0,"['Free breakfast available', 'Free cancellation']",24.711273,46.671043
+52,810042,Continent Al Waha Hotel,Booking.com,776.25,750.0,2025-01-29,2025-02-03,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+53,3250538,Al Mashreq Boutique Hotel,Booking.com,783.75,783.75,2025-01-29,2025-02-03,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+55,10131963,Spectrums Hotel Riyadh,Booking.com,596.25,596.25,2025-01-29,2025-02-03,189,4.5,"['Free breakfast available', 'Free cancellation']",24.700665,46.678635
+56,1748545,Executives Hotel - Olaya,Booking.com,558.75,513.75,2025-01-29,2025-02-03,165,4.0,"['Free breakfast available', 'Free cancellation']",24.70869,46.678
+65,3879255,OYO 146 Al Asemah Hotel,Expedia,266.25,266.25,2025-01-29,2025-02-03,3,3.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.641687,46.72113
+75,24143026,Joudyan Hotel,Booking.com,633.75,543.75,2024-12-23,2024-12-25,317,5.0,"['Free breakfast available', 'Free cancellation']",24.713552,46.675297
+77,7789088,"Crowne Plaza Riyadh Rdc Hotel & Convention, An Ihg Hotel",Booking.com,1065.0,956.25,2024-12-23,2024-12-25,331,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.738811,46.635284
+80,15239002,Shaza Riyadh,Booking.com,600.0,600.0,2024-12-23,2024-12-25,176,4.5,"['Free breakfast available', 'Reserve now, pay at stay']",24.675924,46.7792
+81,1486058,"Crowne Plaza Riyadh Palace, an IHG hotel",Booking.com,825.0,405.0,2024-12-23,2024-12-25,239,4.0,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.664728,46.71136
+86,3349253,Carawan Al Fahad Hotel,Booking.com,423.75,393.75,2024-12-23,2024-12-25,54,4.0,"['Free breakfast available', 'Free cancellation']",24.711273,46.671043
+88,810042,Continent Al Waha Hotel,Booking.com,502.5,442.5,2024-12-23,2024-12-25,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+89,3250538,Al Mashreq Boutique Hotel,Booking.com,603.75,603.75,2024-12-23,2024-12-25,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+90,10131963,Spectrums Hotel Riyadh,Booking.com,551.25,551.25,2024-12-23,2024-12-25,189,4.5,"['Free breakfast available', 'Free cancellation']",24.700665,46.678635
+91,1748545,Executives Hotel - Olaya,Booking.com,450.0,412.5,2024-12-23,2024-12-25,165,4.0,"['Free breakfast available', 'Free cancellation']",24.70869,46.678
+100,3879255,OYO 146 Al Asemah Hotel,Agoda.com,195.0,172.5,2024-12-23,2024-12-25,3,3.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.641687,46.72113
+111,24143026,Joudyan Hotel,Booking.com,780.0,671.25,2025-01-25,2025-01-28,317,5.0,"['Free breakfast available', 'Free cancellation']",24.713552,46.675297
+116,15239002,Shaza Riyadh,Booking.com,761.25,761.25,2025-01-25,2025-01-28,176,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.675924,46.7792
+122,15215188,Fairmont Riyadh,Fairmont,2118.75,1582.5,2025-01-25,2025-01-28,220,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.808397,46.71805
+123,3349253,Carawan Al Fahad Hotel,Booking.com,532.5,446.25,2025-01-25,2025-01-28,54,4.0,"['Free breakfast available', 'Free cancellation']",24.711273,46.671043
+125,810042,Continent Al Waha Hotel,Booking.com,776.25,708.75,2025-01-25,2025-01-28,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+126,3250538,Al Mashreq Boutique Hotel,Booking.com,783.75,783.75,2025-01-25,2025-01-28,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+128,10131963,Spectrums Hotel Riyadh,Booking.com,603.75,603.75,2025-01-25,2025-01-28,189,4.5,"['Free breakfast available', 'Free cancellation']",24.700665,46.678635
+129,1748545,Executives Hotel - Olaya,Booking.com,566.25,521.25,2025-01-25,2025-01-28,165,4.0,"['Free breakfast available', 'Free cancellation']",24.70869,46.678
+138,3879255,OYO 146 Al Asemah Hotel,Expedia,266.25,266.25,2025-01-25,2025-01-28,3,3.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.641687,46.72113
+147,24143026,Joudyan Hotel,Booking.com,705.0,607.5,2025-01-05,2025-01-07,317,5.0,"['Free breakfast available', 'Free cancellation']",24.713552,46.675297
+150,15239002,Shaza Riyadh,Booking.com,652.5,652.5,2025-01-05,2025-01-07,176,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.675924,46.7792
+156,3349253,Carawan Al Fahad Hotel,Booking.com,532.5,457.5,2025-01-05,2025-01-07,54,4.0,"['Free breakfast available', 'Free cancellation']",24.711273,46.671043
+159,810042,Continent Al Waha Hotel,Booking.com,750.0,708.75,2025-01-05,2025-01-07,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+160,3250538,Al Mashreq Boutique Hotel,Booking.com,783.75,783.75,2025-01-05,2025-01-07,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+162,1748545,Executives Hotel - Olaya,Booking.com,566.25,551.25,2025-01-05,2025-01-07,165,4.0,"['Free breakfast available', 'Free cancellation']",24.70869,46.678
+177,15215188,Fairmont Riyadh,Fairmont,2280.0,1702.5,2025-01-05,2025-01-07,220,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.808397,46.71805
+185,24143026,Joudyan Hotel,Booking.com,735.0,641.25,2025-01-17,2025-01-21,317,5.0,"['Free breakfast available', 'Free cancellation']",24.713552,46.675297
+189,15239002,Shaza Riyadh,Booking.com,813.75,813.75,2025-01-17,2025-01-21,176,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.675924,46.7792
+194,3349253,Carawan Al Fahad Hotel,Booking.com,532.5,465.0,2025-01-17,2025-01-21,54,4.0,"['Free breakfast available', 'Free cancellation']",24.711273,46.671043
+196,810042,Continent Al Waha Hotel,Booking.com,731.25,693.75,2025-01-17,2025-01-21,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+197,3250538,Al Mashreq Boutique Hotel,Booking.com,783.75,783.75,2025-01-17,2025-01-21,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+198,10131963,Spectrums Hotel Riyadh,Booking.com,618.75,618.75,2025-01-17,2025-01-21,189,4.5,"['Free breakfast available', 'Free cancellation']",24.700665,46.678635
+200,1748545,Executives Hotel - Olaya,Booking.com,566.25,551.25,2025-01-17,2025-01-21,165,4.0,"['Free breakfast available', 'Free cancellation']",24.70869,46.678
+208,3879255,OYO 146 Al Asemah Hotel,Expedia,266.25,266.25,2025-01-17,2025-01-21,3,3.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.641687,46.72113
+219,9702375,Rosh Rayhaan by Rotana,Official Site,915.0,697.5,2025-01-10,2025-01-13,1311,4.5,"['Free breakfast available', 'Free cancellation']",24.700346,46.682137
+221,24143026,Joudyan Hotel,Booking.com,690.0,603.75,2025-01-10,2025-01-13,317,5.0,"['Free breakfast available', 'Free cancellation']",24.713552,46.675297
+226,15239002,Shaza Riyadh,Booking.com,723.75,671.25,2025-01-10,2025-01-13,176,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.675924,46.7792
+232,15215188,Fairmont Riyadh,Fairmont,1845.0,1661.25,2025-01-10,2025-01-13,220,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.808397,46.71805
+233,3349253,Carawan Al Fahad Hotel,Booking.com,532.5,446.25,2025-01-10,2025-01-13,54,4.0,"['Free breakfast available', 'Free cancellation']",24.711273,46.671043
+235,810042,Continent Al Waha Hotel,Booking.com,720.0,671.25,2025-01-10,2025-01-13,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+237,3250538,Al Mashreq Boutique Hotel,Booking.com,926.25,783.75,2025-01-10,2025-01-13,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+238,10131963,Spectrums Hotel Riyadh,Booking.com,600.0,600.0,2025-01-10,2025-01-13,189,4.5,"['Free breakfast available', 'Free cancellation']",24.700665,46.678635
+240,1748545,Executives Hotel - Olaya,Booking.com,566.25,521.25,2025-01-10,2025-01-13,165,4.0,"['Free breakfast available', 'Free cancellation']",24.70869,46.678
+250,3879255,OYO 146 Al Asemah Hotel,Expedia,266.25,266.25,2025-01-10,2025-01-13,3,3.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.641687,46.72113
+257,24143026,Joudyan Hotel,Booking.com,735.0,633.75,2025-01-25,2025-01-27,317,5.0,"['Free breakfast available', 'Free cancellation']",24.713552,46.675297
+262,15239002,Shaza Riyadh,Booking.com,735.0,735.0,2025-01-25,2025-01-27,176,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.675924,46.7792
+268,15215188,Fairmont Riyadh,Fairmont,2171.25,1620.0,2025-01-25,2025-01-27,220,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.808397,46.71805
+269,3349253,Carawan Al Fahad Hotel,Booking.com,532.5,457.5,2025-01-25,2025-01-27,54,4.0,"['Free breakfast available', 'Free cancellation']",24.711273,46.671043
+271,810042,Continent Al Waha Hotel,Booking.com,750.0,693.75,2025-01-25,2025-01-27,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+272,3250538,Al Mashreq Boutique Hotel,Booking.com,783.75,783.75,2025-01-25,2025-01-27,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+274,10131963,Spectrums Hotel Riyadh,Booking.com,588.75,588.75,2025-01-25,2025-01-27,189,4.5,"['Free breakfast available', 'Free cancellation']",24.700665,46.678635
+275,1748545,Executives Hotel - Olaya,Booking.com,566.25,551.25,2025-01-25,2025-01-27,165,4.0,"['Free breakfast available', 'Free cancellation']",24.70869,46.678
+284,3879255,OYO 146 Al Asemah Hotel,Expedia,266.25,266.25,2025-01-25,2025-01-27,3,3.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.641687,46.72113
+293,9702375,Rosh Rayhaan by Rotana,Official Site,836.25,648.75,2025-01-06,2025-01-10,1311,4.5,"['Free breakfast available', 'Free cancellation']",24.700346,46.682137
+295,24143026,Joudyan Hotel,Booking.com,678.75,585.0,2025-01-06,2025-01-10,317,5.0,"['Free breakfast available', 'Free cancellation']",24.713552,46.675297
+300,15239002,Shaza Riyadh,Booking.com,652.5,652.5,2025-01-06,2025-01-10,176,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.675924,46.7792
+305,15215188,Fairmont Riyadh,Fairmont,2025.0,1511.25,2025-01-06,2025-01-10,220,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.808397,46.71805
+306,3349253,Carawan Al Fahad Hotel,Booking.com,532.5,446.25,2025-01-06,2025-01-10,54,4.0,"['Free breakfast available', 'Free cancellation']",24.711273,46.671043
+308,810042,Continent Al Waha Hotel,Booking.com,731.25,693.75,2025-01-06,2025-01-10,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+310,3250538,Al Mashreq Boutique Hotel,Booking.com,783.75,783.75,2025-01-06,2025-01-10,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+311,10131963,Spectrums Hotel Riyadh,Booking.com,645.0,607.5,2025-01-06,2025-01-10,189,4.5,"['Free breakfast available', 'Free cancellation']",24.700665,46.678635
+313,1748545,Executives Hotel - Olaya,Booking.com,566.25,521.25,2025-01-06,2025-01-10,165,4.0,"['Free breakfast available', 'Free cancellation']",24.70869,46.678
+323,3879255,OYO 146 Al Asemah Hotel,Expedia,266.25,266.25,2025-01-06,2025-01-10,3,3.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.641687,46.72113
+329,9702375,Rosh Rayhaan by Rotana,Official Site,1743.75,1372.5,2025-02-10,2025-02-12,1311,4.5,"['Free breakfast available', 'Free cancellation']",24.700346,46.682137
+332,24143026,Joudyan Hotel,Booking.com,963.75,832.5,2025-02-10,2025-02-12,317,5.0,"['Free breakfast available', 'Free cancellation']",24.713552,46.675297
+335,15239002,Shaza Riyadh,Booking.com,978.75,978.75,2025-02-10,2025-02-12,176,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.675924,46.7792
+338,15215188,Fairmont Riyadh,Fairmont,3798.75,2831.25,2025-02-10,2025-02-12,220,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.808397,46.71805
+342,3349253,Carawan Al Fahad Hotel,MakeMyTrip,517.5,457.5,2025-02-10,2025-02-12,54,4.0,"['Free breakfast available', 'Free cancellation']",24.711273,46.671043
+344,810042,Continent Al Waha Hotel,Booking.com,776.25,776.25,2025-02-10,2025-02-12,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+347,3250538,Al Mashreq Boutique Hotel,Booking.com,2171.25,791.25,2025-02-10,2025-02-12,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+348,10131963,Spectrums Hotel Riyadh,Booking.com,641.25,615.0,2025-02-10,2025-02-12,189,4.5,"['Free breakfast available', 'Free cancellation']",24.700665,46.678635
+350,1748545,Executives Hotel - Olaya,Booking.com,543.75,528.75,2025-02-10,2025-02-12,165,4.0,"['Free breakfast available', 'Free cancellation']",24.70869,46.678
+359,3879255,OYO 146 Al Asemah Hotel,Expedia,266.25,266.25,2025-02-10,2025-02-12,3,3.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.641687,46.72113
+366,24143026,Joudyan Hotel,Booking.com,963.75,832.5,2025-02-16,2025-02-18,317,5.0,"['Free breakfast available', 'Free cancellation']",24.713552,46.675297
+369,15239002,Shaza Riyadh,Booking.com,870.0,870.0,2025-02-16,2025-02-18,176,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.675924,46.7792
+374,3349253,Carawan Al Fahad Hotel,MakeMyTrip,517.5,457.5,2025-02-16,2025-02-18,54,4.0,"['Free breakfast available', 'Free cancellation']",24.711273,46.671043
+375,810042,Continent Al Waha Hotel,Booking.com,776.25,776.25,2025-02-16,2025-02-18,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+376,3250538,Al Mashreq Boutique Hotel,Booking.com,783.75,783.75,2025-02-16,2025-02-18,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+378,10131963,Spectrums Hotel Riyadh,Booking.com,641.25,615.0,2025-02-16,2025-02-18,189,4.5,"['Free breakfast available', 'Free cancellation']",24.700665,46.678635
+379,1748545,Executives Hotel - Olaya,Booking.com,543.75,528.75,2025-02-16,2025-02-18,165,4.0,"['Free breakfast available', 'Free cancellation']",24.70869,46.678
+386,3879255,OYO 146 Al Asemah Hotel,Expedia,266.25,266.25,2025-02-16,2025-02-18,3,3.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.641687,46.72113
+391,9702375,Rosh Rayhaan by Rotana,Official Site,1935.0,1526.25,2025-02-16,2025-02-18,1311,4.5,"['Free breakfast available', 'Free cancellation']",24.700346,46.682137
+396,15215188,Fairmont Riyadh,Fairmont,2767.5,2066.25,2025-02-16,2025-02-18,220,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.808397,46.71805
+403,9702375,Rosh Rayhaan by Rotana,Official Site,1136.25,866.25,2025-01-15,2025-01-18,1311,4.5,"['Free breakfast available', 'Free cancellation']",24.700346,46.682137
+405,24143026,Joudyan Hotel,Booking.com,690.0,592.5,2025-01-15,2025-01-18,317,5.0,"['Free breakfast available', 'Free cancellation']",24.713552,46.675297
+410,15239002,Shaza Riyadh,Booking.com,798.75,753.75,2025-01-15,2025-01-18,176,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.675924,46.7792
+416,15215188,Fairmont Riyadh,Fairmont,2692.5,2010.0,2025-01-15,2025-01-18,220,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.808397,46.71805
+417,3349253,Carawan Al Fahad Hotel,Booking.com,532.5,446.25,2025-01-15,2025-01-18,54,4.0,"['Free breakfast available', 'Free cancellation']",24.711273,46.671043
+419,810042,Continent Al Waha Hotel,Booking.com,701.25,660.0,2025-01-15,2025-01-18,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+421,3250538,Al Mashreq Boutique Hotel,Booking.com,1166.25,783.75,2025-01-15,2025-01-18,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+423,1748545,Executives Hotel - Olaya,Booking.com,566.25,521.25,2025-01-15,2025-01-18,165,4.0,"['Free breakfast available', 'Free cancellation']",24.70869,46.678
+433,3879255,OYO 146 Al Asemah Hotel,Expedia,266.25,266.25,2025-01-15,2025-01-18,3,3.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.641687,46.72113
+440,24143026,Joudyan Hotel,Booking.com,963.75,832.5,2025-02-02,2025-02-04,317,5.0,"['Free breakfast available', 'Free cancellation']",24.713552,46.675297
+443,15239002,Shaza Riyadh,Booking.com,652.5,652.5,2025-02-02,2025-02-04,176,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.675924,46.7792
+449,3349253,Carawan Al Fahad Hotel,MakeMyTrip,517.5,457.5,2025-02-02,2025-02-04,54,4.0,"['Free breakfast available', 'Free cancellation']",24.711273,46.671043
+450,810042,Continent Al Waha Hotel,Booking.com,753.75,708.75,2025-02-02,2025-02-04,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+452,3250538,Al Mashreq Boutique Hotel,Booking.com,783.75,783.75,2025-02-02,2025-02-04,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+454,1748545,Executives Hotel - Olaya,Booking.com,543.75,528.75,2025-02-02,2025-02-04,165,4.0,"['Free breakfast available', 'Free cancellation']",24.70869,46.678
+461,3879255,OYO 146 Al Asemah Hotel,Expedia,266.25,266.25,2025-02-02,2025-02-04,3,3.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.641687,46.72113
+468,15215188,Fairmont Riyadh,Fairmont,2497.5,1860.0,2025-02-02,2025-02-04,220,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.808397,46.71805
+477,24143026,Joudyan Hotel,Booking.com,963.75,840.0,2025-02-05,2025-02-06,317,5.0,"['Free breakfast available', 'Free cancellation']",24.713552,46.675297
+480,15239002,Shaza Riyadh,Booking.com,652.5,652.5,2025-02-05,2025-02-06,176,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.675924,46.7792
+485,810042,Continent Al Waha Hotel,Booking.com,843.75,780.0,2025-02-05,2025-02-06,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+486,3250538,Al Mashreq Boutique Hotel,Booking.com,783.75,783.75,2025-02-05,2025-02-06,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+488,10131963,Spectrums Hotel Riyadh,Booking.com,641.25,596.25,2025-02-05,2025-02-06,189,4.5,"['Free breakfast available', 'Free cancellation']",24.700665,46.678635
+489,1748545,Executives Hotel - Olaya,Booking.com,592.5,517.5,2025-02-05,2025-02-06,165,4.0,"['Free breakfast available', 'Free cancellation']",24.70869,46.678
+498,3879255,OYO 146 Al Asemah Hotel,Expedia,266.25,266.25,2025-02-05,2025-02-06,3,3.5,"['Free breakfast available', 'Free cancellation']",24.641687,46.72113
+512,24143026,Joudyan Hotel,Booking.com,813.75,708.75,2025-01-25,2025-01-30,317,5.0,"['Free breakfast available', 'Free cancellation']",24.713552,46.675297
+515,15239002,Shaza Riyadh,Booking.com,750.0,746.25,2025-01-25,2025-01-30,176,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.675924,46.7792
+521,3349253,Carawan Al Fahad Hotel,Booking.com,532.5,450.0,2025-01-25,2025-01-30,54,4.0,"['Free breakfast available', 'Free cancellation']",24.711273,46.671043
+524,810042,Continent Al Waha Hotel,Booking.com,776.25,690.0,2025-01-25,2025-01-30,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+525,3250538,Al Mashreq Boutique Hotel,Booking.com,783.75,783.75,2025-01-25,2025-01-30,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+526,10131963,Spectrums Hotel Riyadh,Booking.com,618.75,607.5,2025-01-25,2025-01-30,189,4.5,"['Free breakfast available', 'Free cancellation']",24.700665,46.678635
+527,1748545,Executives Hotel - Olaya,Booking.com,566.25,521.25,2025-01-25,2025-01-30,165,4.0,"['Free breakfast available', 'Free cancellation']",24.70869,46.678
+536,3879255,OYO 146 Al Asemah Hotel,Expedia,266.25,266.25,2025-01-25,2025-01-30,3,3.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.641687,46.72113
+547,24143026,Joudyan Hotel,Booking.com,813.75,712.5,2025-01-18,2025-01-23,317,5.0,"['Free breakfast available', 'Free cancellation']",24.713552,46.675297
+551,15239002,Shaza Riyadh,Booking.com,870.0,870.0,2025-01-18,2025-01-23,176,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.675924,46.7792
+557,3349253,Carawan Al Fahad Hotel,Booking.com,532.5,468.75,2025-01-18,2025-01-23,54,4.0,"['Free breakfast available', 'Free cancellation']",24.711273,46.671043
+559,810042,Continent Al Waha Hotel,Booking.com,750.0,690.0,2025-01-18,2025-01-23,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+560,3250538,Al Mashreq Boutique Hotel,Booking.com,783.75,783.75,2025-01-18,2025-01-23,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+561,10131963,Spectrums Hotel Riyadh,Booking.com,618.75,607.5,2025-01-18,2025-01-23,189,4.5,"['Free breakfast available', 'Free cancellation']",24.700665,46.678635
+562,1748545,Executives Hotel - Olaya,Booking.com,566.25,551.25,2025-01-18,2025-01-23,165,4.0,"['Free breakfast available', 'Free cancellation']",24.70869,46.678
+570,3879255,OYO 146 Al Asemah Hotel,Expedia,266.25,266.25,2025-01-18,2025-01-23,3,3.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.641687,46.72113
+582,24143026,Joudyan Hotel,Booking.com,611.25,525.0,2024-12-28,2025-01-01,317,5.0,"['Free breakfast available', 'Free cancellation']",24.713552,46.675297
+587,15239002,Shaza Riyadh,Booking.com,600.0,600.0,2024-12-28,2025-01-01,176,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.675924,46.7792
+593,15215188,Fairmont Riyadh,Fairmont,1556.25,1068.75,2024-12-28,2025-01-01,220,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.808397,46.71805
+594,3349253,Carawan Al Fahad Hotel,Booking.com,480.0,397.5,2024-12-28,2025-01-01,54,4.0,"['Free breakfast available', 'Free cancellation']",24.711273,46.671043
+596,810042,Continent Al Waha Hotel,Booking.com,555.0,498.75,2024-12-28,2025-01-01,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+597,3250538,Al Mashreq Boutique Hotel,Booking.com,603.75,603.75,2024-12-28,2025-01-01,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+599,10131963,Spectrums Hotel Riyadh,Booking.com,562.5,562.5,2024-12-28,2025-01-01,189,4.5,"['Free breakfast available', 'Free cancellation']",24.700665,46.678635
+601,1748545,Executives Hotel - Olaya,Booking.com,517.5,476.25,2024-12-28,2025-01-01,165,4.0,"['Free breakfast available', 'Free cancellation']",24.70869,46.678
+611,3879255,OYO 146 Al Asemah Hotel,Agoda.com,198.75,172.5,2024-12-28,2025-01-01,3,3.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.641687,46.72113
+618,24143026,Joudyan Hotel,Booking.com,903.75,783.75,2025-02-09,2025-02-14,317,5.0,"['Free breakfast available', 'Free cancellation']",24.713552,46.675297
+621,15239002,Shaza Riyadh,Booking.com,922.5,840.0,2025-02-09,2025-02-14,176,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.675924,46.7792
+625,3349253,Carawan Al Fahad Hotel,MakeMyTrip,517.5,450.0,2025-02-09,2025-02-14,54,4.0,"['Free breakfast available', 'Free cancellation']",24.711273,46.671043
+626,810042,Continent Al Waha Hotel,Booking.com,776.25,765.0,2025-02-09,2025-02-14,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+627,10131963,Spectrums Hotel Riyadh,Booking.com,641.25,618.75,2025-02-09,2025-02-14,189,4.5,"['Free breakfast available', 'Free cancellation']",24.700665,46.678635
+629,1748545,Executives Hotel - Olaya,Booking.com,543.75,502.5,2025-02-09,2025-02-14,165,4.0,"['Free breakfast available', 'Free cancellation']",24.70869,46.678
+637,3879255,OYO 146 Al Asemah Hotel,Expedia,266.25,266.25,2025-02-09,2025-02-14,3,3.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.641687,46.72113
+645,15215188,Fairmont Riyadh,Fairmont,3093.75,2782.5,2025-02-09,2025-02-14,220,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.808397,46.71805
+648,3250538,Al Mashreq Boutique Hotel,Booking.com,2171.25,1050.0,2025-02-09,2025-02-14,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+654,9702375,Rosh Rayhaan by Rotana,Official Site,1087.5,806.25,2024-12-20,2024-12-21,1311,4.5,"['Free breakfast available', 'Free cancellation']",24.700346,46.682137
+657,7789088,"Crowne Plaza Riyadh Rdc Hotel & Convention, An Ihg Hotel",Booking.com,1282.5,1282.5,2024-12-20,2024-12-21,331,4.5,"['Free breakfast available', 'Reserve now, pay at stay']",24.738811,46.635284
+660,15239002,Shaza Riyadh,Booking.com,615.0,615.0,2024-12-20,2024-12-21,176,4.5,"['Free breakfast available', 'Reserve now, pay at stay']",24.675924,46.7792
+661,1486058,"Crowne Plaza Riyadh Palace, an IHG hotel",Booking.com,615.0,611.25,2024-12-20,2024-12-21,239,4.0,"['Free breakfast available', 'Reserve now, pay at stay']",24.664728,46.71136
+663,17154823,"Crowne Plaza Riyadh al Waha, an IHG hotel",Booking.com,633.75,633.75,2024-12-20,2024-12-21,214,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.742296,46.725163
+664,15215188,Fairmont Riyadh,Fairmont,1687.5,1638.75,2024-12-20,2024-12-21,220,4.5,"['Free breakfast available', 'Reserve now, pay at stay']",24.808397,46.71805
+667,3349253,Carawan Al Fahad Hotel,Booking.com,405.0,356.25,2024-12-20,2024-12-21,54,4.0,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.711273,46.671043
+685,3879255,OYO 146 Al Asemah Hotel,Agoda.com,213.75,172.5,2024-12-20,2024-12-21,3,3.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.641687,46.72113
+691,9702375,Rosh Rayhaan by Rotana,Official Site,813.75,671.25,2025-01-04,2025-01-05,1311,4.5,"['Free breakfast available', 'Free cancellation']",24.700346,46.682137
+697,15239002,Shaza Riyadh,Booking.com,652.5,652.5,2025-01-04,2025-01-05,176,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.675924,46.7792
+699,3349253,Carawan Al Fahad Hotel,Booking.com,532.5,457.5,2025-01-04,2025-01-05,54,4.0,"['Free breakfast available', 'Free cancellation']",24.711273,46.671043
+701,810042,Continent Al Waha Hotel,MakeMyTrip,727.5,701.25,2025-01-04,2025-01-05,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+703,3250538,Al Mashreq Boutique Hotel,Booking.com,750.0,750.0,2025-01-04,2025-01-05,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+704,10131963,Spectrums Hotel Riyadh,Booking.com,562.5,562.5,2025-01-04,2025-01-05,189,4.5,"['Free breakfast available', 'Free cancellation']",24.700665,46.678635
+706,1748545,Executives Hotel - Olaya,Booking.com,615.0,540.0,2025-01-04,2025-01-05,165,4.0,"['Free breakfast available', 'Free cancellation']",24.70869,46.678
+715,3879255,OYO 146 Al Asemah Hotel,Expedia,266.25,266.25,2025-01-04,2025-01-05,3,3.5,"['Free breakfast available', 'Free cancellation']",24.641687,46.72113
+727,24143026,Joudyan Hotel,Booking.com,776.25,671.25,2025-02-11,2025-02-16,317,5.0,"['Free breakfast available', 'Free cancellation']",24.713552,46.675297
+732,15239002,Shaza Riyadh,Booking.com,813.75,813.75,2025-02-11,2025-02-16,176,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.675924,46.7792
+737,810042,Continent Al Waha Hotel,Booking.com,776.25,776.25,2025-02-11,2025-02-16,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+738,3250538,Al Mashreq Boutique Hotel,Booking.com,2013.75,1035.0,2025-02-11,2025-02-16,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+739,10131963,Spectrums Hotel Riyadh,Booking.com,596.25,596.25,2025-02-11,2025-02-16,189,4.5,"['Free breakfast available', 'Free cancellation']",24.700665,46.678635
+743,1748545,Executives Hotel - Olaya,Booking.com,525.0,483.75,2025-02-11,2025-02-16,165,4.0,"['Free breakfast available', 'Free cancellation']",24.70869,46.678
+752,3879255,OYO 146 Al Asemah Hotel,Expedia,266.25,266.25,2025-02-11,2025-02-16,3,3.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.641687,46.72113
+762,9702375,Rosh Rayhaan by Rotana,Official Site,937.5,705.0,2024-12-22,2024-12-26,1311,4.5,"['Free breakfast available', 'Free cancellation']",24.700346,46.682137
+764,24143026,Joudyan Hotel,Booking.com,633.75,543.75,2024-12-22,2024-12-26,317,5.0,"['Free breakfast available', 'Free cancellation']",24.713552,46.675297
+766,7789088,"Crowne Plaza Riyadh Rdc Hotel & Convention, An Ihg Hotel",Booking.com,1050.0,945.0,2024-12-22,2024-12-26,331,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.738811,46.635284
+769,15239002,Shaza Riyadh,Booking.com,600.0,600.0,2024-12-22,2024-12-26,176,4.5,"['Free breakfast available', 'Reserve now, pay at stay']",24.675924,46.7792
+775,3349253,Carawan Al Fahad Hotel,Booking.com,423.75,397.5,2024-12-22,2024-12-26,54,4.0,"['Free breakfast available', 'Free cancellation']",24.711273,46.671043
+777,810042,Continent Al Waha Hotel,Booking.com,506.25,450.0,2024-12-22,2024-12-26,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+778,3250538,Al Mashreq Boutique Hotel,Booking.com,603.75,603.75,2024-12-22,2024-12-26,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+780,10131963,Spectrums Hotel Riyadh,Booking.com,555.0,555.0,2024-12-22,2024-12-26,189,4.5,"['Free breakfast available', 'Free cancellation']",24.700665,46.678635
+790,3879255,OYO 146 Al Asemah Hotel,Agoda.com,187.5,172.5,2024-12-22,2024-12-26,3,3.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.641687,46.72113
+795,15215188,Fairmont Riyadh,Fairmont,2088.75,1470.0,2024-12-22,2024-12-26,220,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.808397,46.71805
+800,24143026,Joudyan Hotel,Booking.com,963.75,840.0,2025-02-09,2025-02-10,317,5.0,"['Free breakfast available', 'Free cancellation']",24.713552,46.675297
+802,15239002,Shaza Riyadh,Booking.com,978.75,753.75,2025-02-09,2025-02-10,176,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.675924,46.7792
+806,810042,Continent Al Waha Hotel,Booking.com,843.75,731.25,2025-02-09,2025-02-10,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+808,10131963,Spectrums Hotel Riyadh,Booking.com,641.25,596.25,2025-02-09,2025-02-10,189,4.5,"['Free breakfast available', 'Free cancellation']",24.700665,46.678635
+809,1748545,Executives Hotel - Olaya,Booking.com,592.5,517.5,2025-02-09,2025-02-10,165,4.0,"['Free breakfast available', 'Free cancellation']",24.70869,46.678
+817,3879255,OYO 146 Al Asemah Hotel,Expedia,266.25,266.25,2025-02-09,2025-02-10,3,3.5,"['Free breakfast available', 'Free cancellation']",24.641687,46.72113
+824,3250538,Al Mashreq Boutique Hotel,Booking.com,2171.25,2171.25,2025-02-09,2025-02-10,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+836,24143026,Joudyan Hotel,Booking.com,543.75,472.5,2025-01-03,2025-01-05,317,5.0,"['Free breakfast available', 'Free cancellation']",24.713552,46.675297
+840,15239002,Shaza Riyadh,Booking.com,652.5,652.5,2025-01-03,2025-01-05,176,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.675924,46.7792
+846,3349253,Carawan Al Fahad Hotel,Booking.com,532.5,457.5,2025-01-03,2025-01-05,54,4.0,"['Free breakfast available', 'Free cancellation']",24.711273,46.671043
+848,810042,Continent Al Waha Hotel,Booking.com,708.75,708.75,2025-01-03,2025-01-05,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+849,3250538,Al Mashreq Boutique Hotel,Booking.com,750.0,750.0,2025-01-03,2025-01-05,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+850,10131963,Spectrums Hotel Riyadh,Booking.com,562.5,562.5,2025-01-03,2025-01-05,189,4.5,"['Free breakfast available', 'Free cancellation']",24.700665,46.678635
+852,1748545,Executives Hotel - Olaya,Booking.com,566.25,551.25,2025-01-03,2025-01-05,165,4.0,"['Free breakfast available', 'Free cancellation']",24.70869,46.678
+870,9702375,Rosh Rayhaan by Rotana,Official Site,1413.75,1113.75,2025-01-20,2025-01-24,1311,4.5,"['Free breakfast available', 'Free cancellation']",24.700346,46.682137
+872,24143026,Joudyan Hotel,Booking.com,802.5,693.75,2025-01-20,2025-01-24,317,5.0,"['Free breakfast available', 'Free cancellation']",24.713552,46.675297
+877,15239002,Shaza Riyadh,Booking.com,870.0,870.0,2025-01-20,2025-01-24,176,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.675924,46.7792
+883,15215188,Fairmont Riyadh,Fairmont,2152.5,1608.75,2025-01-20,2025-01-24,220,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.808397,46.71805
+884,3349253,Carawan Al Fahad Hotel,Booking.com,532.5,446.25,2025-01-20,2025-01-24,54,4.0,"['Free breakfast available', 'Free cancellation']",24.711273,46.671043
+886,810042,Continent Al Waha Hotel,Booking.com,731.25,690.0,2025-01-20,2025-01-24,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+888,3250538,Al Mashreq Boutique Hotel,Booking.com,783.75,783.75,2025-01-20,2025-01-24,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+890,1748545,Executives Hotel - Olaya,Booking.com,566.25,521.25,2025-01-20,2025-01-24,165,4.0,"['Free breakfast available', 'Free cancellation']",24.70869,46.678
+900,3879255,OYO 146 Al Asemah Hotel,Expedia,266.25,266.25,2025-01-20,2025-01-24,3,3.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.641687,46.72113
+907,9702375,Rosh Rayhaan by Rotana,Official Site,1042.5,840.0,2025-02-13,2025-02-17,1311,4.5,"['Free breakfast available', 'Free cancellation']",24.700346,46.682137
+909,24143026,Joudyan Hotel,Booking.com,731.25,630.0,2025-02-13,2025-02-17,317,5.0,"['Free breakfast available', 'Free cancellation']",24.713552,46.675297
+914,15239002,Shaza Riyadh,Booking.com,746.25,746.25,2025-02-13,2025-02-17,176,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.675924,46.7792
+920,15215188,Fairmont Riyadh,Fairmont,2036.25,1522.5,2025-02-13,2025-02-17,220,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.808397,46.71805
+921,3349253,Carawan Al Fahad Hotel,MakeMyTrip,517.5,446.25,2025-02-13,2025-02-17,54,4.0,"['Free breakfast available', 'Free cancellation']",24.711273,46.671043
+923,810042,Continent Al Waha Hotel,Booking.com,776.25,671.25,2025-02-13,2025-02-17,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+925,3250538,Al Mashreq Boutique Hotel,Booking.com,1627.5,1113.75,2025-02-13,2025-02-17,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+926,10131963,Spectrums Hotel Riyadh,Booking.com,588.75,588.75,2025-02-13,2025-02-17,189,4.5,"['Free breakfast available', 'Free cancellation']",24.700665,46.678635
+928,1748545,Executives Hotel - Olaya,Booking.com,521.25,480.0,2025-02-13,2025-02-17,165,4.0,"['Free breakfast available', 'Free cancellation']",24.70869,46.678
+938,3879255,OYO 146 Al Asemah Hotel,Expedia,266.25,266.25,2025-02-13,2025-02-17,3,3.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.641687,46.72113
+945,24143026,Joudyan Hotel,Booking.com,780.0,682.5,2025-01-21,2025-01-24,317,5.0,"['Free breakfast available', 'Free cancellation']",24.713552,46.675297
+950,15239002,Shaza Riyadh,Booking.com,870.0,870.0,2025-01-21,2025-01-24,176,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.675924,46.7792
+956,3349253,Carawan Al Fahad Hotel,Booking.com,532.5,465.0,2025-01-21,2025-01-24,54,4.0,"['Free breakfast available', 'Free cancellation']",24.711273,46.671043
+958,810042,Continent Al Waha Hotel,Booking.com,720.0,690.0,2025-01-21,2025-01-24,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+959,3250538,Al Mashreq Boutique Hotel,Booking.com,783.75,783.75,2025-01-21,2025-01-24,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+963,1748545,Executives Hotel - Olaya,Booking.com,566.25,551.25,2025-01-21,2025-01-24,165,4.0,"['Free breakfast available', 'Free cancellation']",24.70869,46.678
+982,24143026,Joudyan Hotel,Booking.com,802.5,701.25,2025-01-13,2025-01-17,317,5.0,"['Free breakfast available', 'Free cancellation']",24.713552,46.675297
+986,15239002,Shaza Riyadh,Booking.com,870.0,783.75,2025-01-13,2025-01-17,176,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.675924,46.7792
+991,3349253,Carawan Al Fahad Hotel,Booking.com,532.5,465.0,2025-01-13,2025-01-17,54,4.0,"['Free breakfast available', 'Free cancellation']",24.711273,46.671043
+993,810042,Continent Al Waha Hotel,Booking.com,731.25,693.75,2025-01-13,2025-01-17,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+994,3250538,Al Mashreq Boutique Hotel,Booking.com,1477.5,783.75,2025-01-13,2025-01-17,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+997,1748545,Executives Hotel - Olaya,Booking.com,566.25,551.25,2025-01-13,2025-01-17,165,4.0,"['Free breakfast available', 'Free cancellation']",24.70869,46.678
+1004,3879255,OYO 146 Al Asemah Hotel,Expedia,266.25,266.25,2025-01-13,2025-01-17,3,3.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.641687,46.72113
+1016,9702375,Rosh Rayhaan by Rotana,Official Site,2212.5,1743.75,2025-02-17,2025-02-18,1311,4.5,"['Free breakfast available', 'Free cancellation']",24.700346,46.682137
+1020,15239002,Shaza Riyadh,Booking.com,870.0,870.0,2025-02-17,2025-02-18,176,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.675924,46.7792
+1025,810042,Continent Al Waha Hotel,Booking.com,843.75,772.5,2025-02-17,2025-02-18,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+1026,3250538,Al Mashreq Boutique Hotel,Booking.com,783.75,783.75,2025-02-17,2025-02-18,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+1028,10131963,Spectrums Hotel Riyadh,Booking.com,641.25,596.25,2025-02-17,2025-02-18,189,4.5,"['Free breakfast available', 'Free cancellation']",24.700665,46.678635
+1029,1748545,Executives Hotel - Olaya,Booking.com,592.5,517.5,2025-02-17,2025-02-18,165,4.0,"['Free breakfast available', 'Free cancellation']",24.70869,46.678
+1036,3879255,OYO 146 Al Asemah Hotel,Expedia,266.25,266.25,2025-02-17,2025-02-18,3,3.5,"['Free breakfast available', 'Free cancellation']",24.641687,46.72113
+1053,9702375,Rosh Rayhaan by Rotana,Official Site,1335.0,1050.0,2025-01-25,2025-01-29,1311,4.5,"['Free breakfast available', 'Free cancellation']",24.700346,46.682137
+1055,24143026,Joudyan Hotel,Booking.com,802.5,693.75,2025-01-25,2025-01-29,317,5.0,"['Free breakfast available', 'Free cancellation']",24.713552,46.675297
+1059,15239002,Shaza Riyadh,Booking.com,776.25,671.25,2025-01-25,2025-01-29,176,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.675924,46.7792
+1065,15215188,Fairmont Riyadh,Fairmont,2152.5,1608.75,2025-01-25,2025-01-29,220,4.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.808397,46.71805
+1066,3349253,Carawan Al Fahad Hotel,Booking.com,532.5,446.25,2025-01-25,2025-01-29,54,4.0,"['Free breakfast available', 'Free cancellation']",24.711273,46.671043
+1068,810042,Continent Al Waha Hotel,Booking.com,750.0,690.0,2025-01-25,2025-01-29,407,4.5,"['Free breakfast available', 'Free cancellation']",24.680944,46.689484
+1069,3250538,Al Mashreq Boutique Hotel,Booking.com,783.75,783.75,2025-01-25,2025-01-29,170,4.5,"['Free breakfast available', 'Free cancellation']",24.70452,46.655216
+1071,10131963,Spectrums Hotel Riyadh,Booking.com,615.0,615.0,2025-01-25,2025-01-29,189,4.5,"['Free breakfast available', 'Free cancellation']",24.700665,46.678635
+1072,1748545,Executives Hotel - Olaya,Booking.com,566.25,521.25,2025-01-25,2025-01-29,165,4.0,"['Free breakfast available', 'Free cancellation']",24.70869,46.678
+1081,3879255,OYO 146 Al Asemah Hotel,Expedia,266.25,266.25,2025-01-25,2025-01-29,3,3.5,"['Free breakfast available', 'Free cancellation • Reserve now, pay at stay']",24.641687,46.72113
