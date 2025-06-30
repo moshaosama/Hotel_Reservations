@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <Navbar />
-
+      <h1>Pages</h1>
       <Footer />
     </>
   );
