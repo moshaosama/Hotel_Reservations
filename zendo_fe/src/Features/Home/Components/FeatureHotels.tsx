@@ -16,7 +16,10 @@ const FeatureHotels = () => {
 
         <div className="grid grid-cols-4  mt-10 ">
           {Hotels?.slice(0, 3)?.map((hotel: any) => (
-            <div key={hotel.id} className="cursor-pointer mb-20">
+            <div
+              key={hotel.id}
+              className="cursor-pointer mb-20 flex flex-col gap-2"
+            >
               <div className="overflow-hidden">
                 <img
                   src={
