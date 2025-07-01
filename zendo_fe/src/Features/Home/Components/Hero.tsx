@@ -28,6 +28,7 @@ const Hero = () => {
               {NavbarLinks.slice(0, 5)?.map(
                 (link: { name: string; icon: ReactElement }) => (
                   <div
+                    key={link.name}
                     className={cn(
                       "flex items-center gap-3 p-4 cursor-pointer",
                       link.name === "Hotels" ? "Active" : ""
