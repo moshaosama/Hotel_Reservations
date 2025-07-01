@@ -39,7 +39,7 @@ const Navbar = () => {
             <IoMdArrowDropdown />
           </div>
 
-          <div className="text-md font-bold">
+          <div className="text-md font-bold cursor-pointer">
             <h1>Login</h1>
           </div>
 
