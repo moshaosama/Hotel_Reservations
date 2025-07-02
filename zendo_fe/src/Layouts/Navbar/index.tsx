@@ -6,7 +6,7 @@ import { IoMdArrowDropdown } from "react-icons/io";
 
 const Navbar = () => {
   return (
-    <div className="bg-white sticky top-0 w-full">
+    <div className="bg-white sticky top-0 z-50 py-2 w-full">
       <div className={cn(Container, "flex justify-between items-center")}>
         <div className="flex items-center gap-6">
           <Link to={"/"}>
