@@ -1,5 +1,5 @@
 import { useEffect, useState, type ComponentType } from "react";
-import Loading from "../Components/loading";
+import Loading from "../Components/Loading";
 
 export function withLoading(WrappedComponent: ComponentType) {
   return (props: any) => {
