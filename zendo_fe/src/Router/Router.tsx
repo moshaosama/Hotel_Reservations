@@ -4,6 +4,8 @@ import { RouterProvider } from "react-router-dom";
 import SplitLayout from "../Layouts/SplitLayout";
 import Hotels from "../Pages/Hotels";
 import { withLoading } from "../Utils/WithLoading";
+import FilterHotels from "../Pages/FilterHotels";
+import Error from "../Components/Error";
 
 const HomeLoader = withLoading(Home);
 const HotelsLoader = withLoading(Hotels);
@@ -13,6 +15,7 @@ const Router = () => {
     {
       path: "",
       element: <SplitLayout />,
+      errorElement: <Error />,
       children: [
         {
           index: true,
@@ -20,7 +23,16 @@ const Router = () => {
         },
         {
           path: "/hotels",
-          element: <HotelsLoader />,
+          children: [
+            {
+              index: true,
+              element: <HotelsLoader />,
+            },
+            {
+              path: ":hotel_name",
+              element: <FilterHotels />,
+            },
+          ],
         },
       ],
     },
