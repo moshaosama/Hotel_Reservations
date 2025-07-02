@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 import { NavbarLinks } from "../../Data/NavbarLinks";
 import { cn } from "../../libs/cn";
 import Container from "../../Styles";
@@ -9,17 +9,19 @@ const Navbar = () => {
     <div className="bg-white sticky top-0 w-full">
       <div className={cn(Container, "flex justify-between items-center")}>
         <div className="flex items-center gap-6">
-          <img
-            src="/60ebe1aa-5f33-46a3-8a02-3ba22ec05675.png"
-            alt="Brand.pdf"
-            className="w-10 rounded-lg"
-          />
+          <Link to={"/"}>
+            <img
+              src="/60ebe1aa-5f33-46a3-8a02-3ba22ec05675.png"
+              alt="Brand.pdf"
+              className="w-10 rounded-lg"
+            />
+          </Link>
           {NavbarLinks?.map((links: { name: string }) => (
             <div
               key={links.name}
               className="hover:border-b-4 hover:border-b-blue-900"
             >
-              <Link to={""}>{links.name}</Link>
+              <NavLink to={links.name.toLowerCase()}>{links.name}</NavLink>
             </div>
           ))}
         </div>
