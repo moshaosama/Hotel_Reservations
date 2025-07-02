@@ -5,3 +5,7 @@
   color: black;
   border-radius: 10pc;
 }
+
+.active {
+  border-bottom: 4px solid #1c398e;
+}
