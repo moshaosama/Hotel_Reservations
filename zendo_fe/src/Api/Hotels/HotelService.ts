@@ -19,6 +19,20 @@ class HotelService extends ParentService {
       return thunkApi.rejectWithValue(err);
     }
   }
+
+  async getHotelByCity(hotel_name: string, thunkApi?: any) {
+    try {
+      const response = await axios.get(
+        `http://localhost:3000/hotels/hotelName?hotel_name=${
+          hotel_name as string
+        }`
+      );
+
+      return response.data;
+    } catch (err) {
+      return thunkApi.rejectWithValue(err);
+    }
+  }
 }
 
 export const hotelService = new HotelService();
