@@ -2,7 +2,7 @@ import type { ReactElement } from "react";
 import { NavbarLinks } from "../../../Data/NavbarLinks";
 import useSetActive from "../../../Hooks/UseSetActive";
 import { cn } from "../../../libs/cn";
-import { FindHotel } from "./FindHotel";
+import { FindHotel } from "../../Hotels/Components/FindHotel";
 
 const Hero = () => {
   const { handleSetActive } = useSetActive();
