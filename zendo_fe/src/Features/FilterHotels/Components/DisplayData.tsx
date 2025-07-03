@@ -48,7 +48,7 @@ const DisplayData = () => {
                 <div className="flex justify-between w-full">
                   <div className="flex ">
                     {Array.from({ length: hotel?.rating }).map((_, i) => (
-                      <CiStar color="orange" />
+                      <CiStar color="orange" key={i} />
                     ))}
                   </div>
                   <div className="mr-7">
