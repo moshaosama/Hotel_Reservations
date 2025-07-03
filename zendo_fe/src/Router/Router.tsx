@@ -9,6 +9,7 @@ import Error from "../Components/Error";
 
 const HomeLoader = withLoading(Home);
 const HotelsLoader = withLoading(Hotels);
+const FilterationHotels = withLoading(FilterHotels);
 
 const Router = () => {
   const Router = createBrowserRouter([
@@ -30,7 +31,7 @@ const Router = () => {
             },
             {
               path: ":hotel_name",
-              element: <FilterHotels />,
+              element: <FilterationHotels />,
             },
           ],
         },
