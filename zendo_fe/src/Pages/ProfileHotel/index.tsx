@@ -3,6 +3,7 @@ import PathName from "../../Components/PathName";
 import useGetHotelByid from "../../Features/ProfileHotel/Hooks/useGetHotelByid";
 import DetailsHotel from "../../Features/ProfileHotel/Compoennts/DetailsHotel";
 import ShowMap from "../../Features/ProfileHotel/Compoennts/ShowMap";
+import DownloadApp from "../../Components/DownloadApp";
 
 const ProfileHotel = () => {
   const { hotelById } = useGetHotelByid();
@@ -22,6 +23,7 @@ const ProfileHotel = () => {
       </PathName>
       <DetailsHotel />
       <ShowMap />
+      <DownloadApp />
     </>
   );
 };
