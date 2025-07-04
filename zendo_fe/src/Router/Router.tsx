@@ -6,6 +6,7 @@ import Hotels from "../Pages/Hotels";
 import { withLoading } from "../Utils/WithLoading";
 import FilterHotels from "../Pages/FilterHotels";
 import Error from "../Components/Error";
+import ProfileHotel from "../Pages/ProfileHotel";
 
 const HomeLoader = withLoading(Home);
 const HotelsLoader = withLoading(Hotels);
@@ -31,7 +32,16 @@ const Router = () => {
             },
             {
               path: ":hotel_name",
-              element: <FilterationHotels />,
+              children: [
+                {
+                  index: true,
+                  element: <FilterationHotels />,
+                },
+                {
+                  path: ":hotel_id",
+                  element: <ProfileHotel />,
+                },
+              ],
             },
           ],
         },
