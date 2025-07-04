@@ -1,6 +1,7 @@
 import { CiStar } from "react-icons/ci";
 import useFilterHotels from "../../Hotels/Hooks/useFilterHotels";
 import { ClimbingBoxLoader } from "react-spinners";
+import { Link } from "react-router";
 
 const DisplayData = () => {
   const { hotelByName, isLoading } = useFilterHotels();
@@ -65,9 +66,12 @@ const DisplayData = () => {
                   <div className="bg-[#e1effd] w-32 flex justify-center items-center rounded-xl font-semibold py-1">
                     <h1>Rating {hotel?.rating}/5</h1>
                   </div>
-                  <div className="mr-7 bg-blue-500 w-32 flex justify-center font-bold text-white hover:bg-blue-700 rounded-full cursor-pointer">
+                  <Link
+                    to={`/hotels/${hotel?.hotel_name}/${hotel.id}`}
+                    className="mr-7 bg-blue-500 w-32 flex justify-center font-bold text-white hover:bg-blue-700 rounded-full cursor-pointer"
+                  >
                     <button className="cursor-pointer py-2">View More</button>
-                  </div>
+                  </Link>
                 </div>
               </div>
             </div>
