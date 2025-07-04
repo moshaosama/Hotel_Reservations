@@ -6,7 +6,7 @@ import { cn } from "../libs/cn";
 const DownloadApp = () => {
   return (
     <>
-      <div className="bg-blue-500">
+      <div className="bg-blue-500 my-20">
         <div
           className={cn(Container, "flex items-center justify-between gap-20")}
         >
