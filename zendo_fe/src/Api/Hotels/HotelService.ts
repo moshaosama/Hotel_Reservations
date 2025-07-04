@@ -33,6 +33,17 @@ class HotelService extends ParentService {
       return thunkApi.rejectWithValue(err);
     }
   }
+
+  async getHotelById(hotel_id: unknown, thunkApi?: any) {
+    try {
+      const response = await axios.get(
+        `http://localhost:3000/hotels/${hotel_id as number}`
+      );
+      return response.data;
+    } catch (err) {
+      return thunkApi.rejectWithValue(err);
+    }
+  }
 }
 
 export const hotelService = new HotelService();
