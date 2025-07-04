@@ -1,16 +1,18 @@
 import { FaSearch } from "react-icons/fa";
 import { useGetCities } from "../Hooks/useGetCities";
 import useFilterHotels from "../Hooks/useFilterHotels";
+import Container from "../../../Styles";
+import { cn } from "../../../libs/cn";
 
 export const FindHotel = () => {
   const { data, isLoading } = useGetCities();
   const { handleFilterationHotel, handleSubmit, register } = useFilterHotels();
 
   return (
-    <div className="bg-white p-5 rounded-xl text-black mt-9">
+    <div className={cn("bg-white p-5 rounded-xl text-black mt-9")}>
       <form
         onSubmit={handleSubmit(handleFilterationHotel)}
-        className="flex gap-5 items-center"
+        className="flex gap-5 items-center w-full"
       >
         <p>
           <select
