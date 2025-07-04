@@ -3,6 +3,7 @@ import Container from "../../../Styles";
 import { SlEnergy } from "react-icons/sl";
 import { CiStar } from "react-icons/ci";
 import useGetHotels from "../Hooks/useGetHotels";
+import { Link } from "react-router";
 
 const FeatureHotels = () => {
   const { data: Hotels } = useGetHotels();
@@ -15,7 +16,8 @@ const FeatureHotels = () => {
 
         <div className="grid grid-cols-4  mt-10 ">
           {Hotels?.slice(0, 3)?.map((hotel: any) => (
-            <div
+            <Link
+              to={`/hotels/${hotel?.hotel_name}/${hotel.id}`}
               key={hotel.id}
               className="cursor-pointer mb-20 flex flex-col gap-2"
             >
@@ -53,7 +55,7 @@ const FeatureHotels = () => {
                   </h1>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
 
           <div className="relative w-72 h-72">
