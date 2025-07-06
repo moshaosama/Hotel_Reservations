@@ -8,12 +8,15 @@ interface HistoryData {
 }
 
 const DeopDownHistory = () => {
-  const { History } = useGetHistories();
+  const { History, DeleteAllHistory } = useGetHistories();
   return (
     <>
       <div className="bg-white shadow-2xl shadow-gray-500 border-2 border-gray-200 w-96 z-50 py-3 px-2 rounded-xl">
         <div className="w-full">
-          <button className="bg-[#e1effd] w-full py-2 hover:border-2 transition-all duration-200 cursor-pointer hover:border-blue-500 rounded-full font-bold">
+          <button
+            onClick={DeleteAllHistory}
+            className="bg-[#e1effd] w-full py-2 hover:border-2 transition-all duration-200 cursor-pointer hover:border-blue-500 rounded-full font-bold"
+          >
             Clear Searches
           </button>
         </div>
