@@ -69,9 +69,12 @@ const FeatureHotels = () => {
               <h1 className="text-white text-lg text-center font-bold">
                 Discover great deals on hotels around the world
               </h1>
-              <button className="border-2 border-white mx-2 py-2 rounded-xl text-white font-bold">
+              <Link
+                to={"/hotels"}
+                className="border-2 text-center cursor-pointer border-white mx-2 py-2 rounded-xl text-white font-bold"
+              >
                 View More
-              </button>
+              </Link>
             </div>
           </div>
         </div>
