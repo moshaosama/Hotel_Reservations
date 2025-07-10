@@ -7,6 +7,7 @@ import { withLoading } from "../Utils/WithLoading";
 import FilterHotels from "../Pages/FilterHotels";
 import Error from "../Components/Error";
 import ProfileHotel from "../Pages/ProfileHotel";
+import Login from "../Pages/Login";
 
 const HomeLoader = withLoading(Home);
 const HotelsLoader = withLoading(Hotels);
@@ -44,6 +45,10 @@ const Router = () => {
               ],
             },
           ],
+        },
+        {
+          path: "login",
+          element: <Login />,
         },
       ],
     },
