@@ -1,12 +1,17 @@
 import Button from "../../../Components/Button";
+import userFormStateSignUp from "../Hooks/FormStateSignUp";
 import DescriptionSignUp from "./DescriptionSignUp";
 
 const FormSignUp = () => {
+  const { fetchHandleSignup, handleSubmit, register } = userFormStateSignUp();
   return (
     <div className="w-full flex justify-center items-center h-[90vh]">
       <div className="flex flex-col gap-3 border-2 border-gray-200 hover:shadow-2xl transition-all duration-300 w-[35pc] p-2 rounded-xl shadow-lg">
         <DescriptionSignUp />
-        <form className="mt-2 grid grid-cols-2 gap-3">
+        <form
+          className="mt-2 grid grid-cols-2 gap-3"
+          onSubmit={handleSubmit(fetchHandleSignup)}
+        >
           <p className="col-span-2 flex flex-col gap-1">
             <label htmlFor="userName" className="font-semibold mx-1">
               userName
@@ -15,6 +20,7 @@ const FormSignUp = () => {
               type="text"
               id="userName"
               className="py-2 px-2 border-2 border-gray-200 rounded-xl"
+              {...register("userName")}
             />
           </p>
 
@@ -26,6 +32,7 @@ const FormSignUp = () => {
               type="email"
               id="Email"
               className="py-2 px-2 border-2 border-gray-200 rounded-xl"
+              {...register("Email")}
             />
           </p>
 
@@ -37,6 +44,7 @@ const FormSignUp = () => {
               type="password"
               id="Password"
               className="py-2 px-2 border-2 border-gray-200 rounded-xl"
+              {...register("Password")}
             />
           </p>
 
