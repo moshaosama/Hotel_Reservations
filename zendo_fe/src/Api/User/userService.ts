@@ -12,6 +12,18 @@ class UserService {
       return thunkApi.rejectWithValue(err);
     }
   }
+
+  async Login(user: any, thunkApi?: any) {
+    try {
+      const response = await axios.post(
+        `http://localhost:3000/auth/login`,
+        user
+      );
+      return response.data;
+    } catch (err) {
+      return thunkApi.rejectWithValue(err);
+    }
+  }
 }
 
 export const userService = new UserService();
