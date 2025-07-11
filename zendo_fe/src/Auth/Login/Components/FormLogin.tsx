@@ -1,17 +1,26 @@
 import Button from "../../../Components/Button";
+import useGetUser from "../../../Hooks/useGetUser";
+import useFormStateLogin from "../Hook/fornStateLogin";
 import DescriptionLogin from "./DescriptionLogin";
 
 const FormLogin = () => {
+  const { fetchHandleLogin, handleSubmit, register } = useFormStateLogin();
+  const { User } = useGetUser();
+
   return (
     <div className="h-[90vh] flex flex-col items-center justify-center">
       <div className="flex flex-col gap-3 border-2 border-gray-200 w-[35pc] p-2 rounded-xl shadow-lg">
         <DescriptionLogin />
-        <form action="" className="grid grid-cols-2 gap-2">
+        <form
+          onSubmit={handleSubmit(fetchHandleLogin)}
+          className="grid grid-cols-2 gap-2"
+        >
           <p className="col-span-2 flex flex-col gap-1">
             <label className="mx-1 font-semibold">Email Address</label>
             <input
               type="email"
               className="py-2 px-2 border-2 border-gray-200 rounded-xl"
+              {...register("Email")}
             />
           </p>
 
@@ -20,6 +29,7 @@ const FormLogin = () => {
             <input
               type="password"
               className="py-2 px-2 border-2 border-gray-200 rounded-xl"
+              {...register("Password")}
             />
           </p>
 
