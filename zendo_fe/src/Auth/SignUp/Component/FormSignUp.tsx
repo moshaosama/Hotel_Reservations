@@ -1,9 +1,10 @@
 import Button from "../../../Components/Button";
-import userFormStateSignUp from "../Hooks/FormStateSignUp";
+import useFormStateSignUp from "../Hooks/FormStateSignUp";
+
 import DescriptionSignUp from "./DescriptionSignUp";
 
 const FormSignUp = () => {
-  const { fetchHandleSignup, handleSubmit, register } = userFormStateSignUp();
+  const { fetchHandleSignup, handleSubmit, register } = useFormStateSignUp();
   return (
     <div className="w-full flex justify-center items-center h-[90vh]">
       <div className="flex flex-col gap-3 border-2 border-gray-200 hover:shadow-2xl transition-all duration-300 w-[35pc] p-2 rounded-xl shadow-lg">
