@@ -11,7 +11,7 @@ const FormLogin = () => {
             <label className="mx-1 font-semibold">Email Address</label>
             <input
               type="email"
-              className="py-2 border-2 border-gray-200 rounded-xl"
+              className="py-2 px-2 border-2 border-gray-200 rounded-xl"
             />
           </p>
 
@@ -19,7 +19,7 @@ const FormLogin = () => {
             <label className="mx-1 font-semibold">Password</label>
             <input
               type="password"
-              className="py-2 border-2 border-gray-200 rounded-xl"
+              className="py-2 px-2 border-2 border-gray-200 rounded-xl"
             />
           </p>
 
@@ -27,7 +27,7 @@ const FormLogin = () => {
             <p className="col-span-2 flex gap-2 ">
               <input
                 type="checkbox"
-                className="py-2 border-2 border-gray-200 rounded-xl"
+                className="py-2 px-2 border-2 border-gray-200 rounded-xl"
               />
               <label className="mx-1 font-semibold text-gray-500">
                 Remember me
