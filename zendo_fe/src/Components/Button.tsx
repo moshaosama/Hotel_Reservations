@@ -13,7 +13,7 @@ const Button = ({
     <>
       <button
         className={cn(
-          "block py-3 rounded-xl text-lg mt-4 font-semibold hover:bg-black hover:text-white"
+          "block py-3 rounded-xl cursor-pointer text-lg mt-4 font-semibold hover:bg-black hover:text-white"
         )}
         style={{
           color: color,
