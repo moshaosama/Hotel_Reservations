@@ -18,7 +18,7 @@ const FilterationData = () => {
     <>
       <div className="mt-3 flex flex-col gap-3">
         <div className="flex justify-between">
-          <div>
+          <div className="max-sm:hidden">
             <button className="w-64 border-2 text-md flex items-center bg-[#e1effd] cursor-pointer justify-center gap-4 py-1 border-[#e1effd] rounded-lg">
               <CiSearch />
               Modify Search
@@ -26,21 +26,21 @@ const FilterationData = () => {
           </div>
 
           <div>
-            <button className="w-96 border-2 text-md flex items-center hover:bg-[#e1effd] cursor-pointer justify-center gap-4 py-1 border-[#e1effd] rounded-lg">
+            <button className="w-96 border-2 max-sm:w-48 text-md flex items-center hover:bg-[#e1effd] cursor-pointer justify-center gap-4 py-1 border-[#e1effd] rounded-lg">
               <LuSignalHigh size={22} />
               Lowest to Higher
             </button>
           </div>
 
           <div>
-            <button className="w-96 border-2 text-md flex items-center hover:bg-[#e1effd]  cursor-pointer justify-center gap-4 py-1 border-[#e1effd] rounded-lg">
+            <button className="w-96 border-2 max-sm:w-48 text-md flex items-center hover:bg-[#e1effd]  cursor-pointer justify-center gap-4 py-1 border-[#e1effd] rounded-lg">
               <LuSignalHigh size={22} className="rotate-y-180" />
               Highest to Lower
             </button>
           </div>
         </div>
         <div className="flex gap-4">
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col max-sm:hidden gap-4">
             <div
               className={cn(
                 "border-2 border-gray-200 transition-all overflow-hidden duration-200 rounded-lg pb-2",
@@ -91,7 +91,7 @@ const FilterationData = () => {
             </div>
           </div>
 
-          <div className="mx-5">
+          <div className="mx-5 max-sm:mx-0">
             <DisplayData />
           </div>
         </div>
