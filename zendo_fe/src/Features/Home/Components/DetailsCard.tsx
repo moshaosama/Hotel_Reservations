@@ -6,7 +6,9 @@ import Container from "../../../Styles";
 const DetailsCard = () => {
   return (
     <>
-      <div className={cn(Container, "flex justify-between gap-3 ")}>
+      <div
+        className={cn(Container, "flex justify-between gap-3 max-sm:flex-col ")}
+      >
         <Card
           Icon={<CiFlag1 />}
           Description="Find best travel services and book them instantly"
