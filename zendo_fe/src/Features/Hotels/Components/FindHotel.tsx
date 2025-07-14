@@ -1,7 +1,6 @@
 import { FaSearch } from "react-icons/fa";
 import { useGetCities } from "../Hooks/useGetCities";
 import useFilterHotels from "../Hooks/useFilterHotels";
-import Container from "../../../Styles";
 import { cn } from "../../../libs/cn";
 
 export const FindHotel = () => {
@@ -9,10 +8,10 @@ export const FindHotel = () => {
   const { handleFilterationHotel, handleSubmit, register } = useFilterHotels();
 
   return (
-    <div className={cn("bg-white p-5 rounded-xl text-black mt-9")}>
+    <div className={cn("bg-white p-5 max-sm:p-0 rounded-xl text-black mt-9")}>
       <form
         onSubmit={handleSubmit(handleFilterationHotel)}
-        className="flex gap-5 items-center w-full"
+        className="flex gap-5 items-center w-full max-sm:flex-col"
       >
         <p>
           <select
@@ -33,15 +32,15 @@ export const FindHotel = () => {
 
         <input
           type="date"
-          className="border-1 border-gray-300 rounded-xl  hover:bg-gray-200 transition-all duration-300  p-5 cursor-pointer"
+          className="border-1 max-sm:w-full border-gray-300 rounded-xl  hover:bg-gray-200 transition-all duration-300  p-5 cursor-pointer"
         />
 
         <input
           type="date"
-          className="border-1 border-gray-300 rounded-xl  hover:bg-gray-200 transition-all duration-300  p-5 cursor-pointer"
+          className="border-1 border-gray-300 max-sm:w-full  rounded-xl  hover:bg-gray-200 transition-all duration-300  p-5 cursor-pointer"
         />
 
-        <button className="bg-blue-500 hover:bg-blue-700 transition-all duration-300 border-1 border-gray-300 cursor-pointer rounded-xl w-28 flex justify-center p-6">
+        <button className="bg-blue-500 max-sm:w-full hover:bg-blue-700 transition-all duration-300 border-1 border-gray-300 cursor-pointer rounded-xl w-28 flex justify-center p-6">
           <FaSearch color="white" />
         </button>
       </form>
