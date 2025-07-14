@@ -6,9 +6,12 @@ import { cn } from "../libs/cn";
 const DownloadApp = () => {
   return (
     <>
-      <div className="bg-blue-500 my-20">
+      <div className="bg-blue-500 my-20 max-sm:pt-4">
         <div
-          className={cn(Container, "flex items-center justify-between gap-20")}
+          className={cn(
+            Container,
+            "flex items-center max-sm:flex-col  justify-between gap-20"
+          )}
         >
           <div className="flex flex-col w-fit gap-2 text-white">
             <button className="border-2 border-white p-4 rounded-lg flex items-center gap-4 hover:bg-black hover:border-black cursor-pointer">
@@ -25,7 +28,7 @@ const DownloadApp = () => {
             </button>
           </div>
 
-          <div className="flex flex-col gap-3 text-white">
+          <div className="flex flex-col gap-3 max-sm:text-center text-white">
             <h1 className="text-2xl font-bold">Get The App!</h1>
             <p>
               Our app has all your travel needs covered: Secure payment
