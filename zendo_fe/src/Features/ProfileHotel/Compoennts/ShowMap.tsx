@@ -14,7 +14,10 @@ const ShowMap = () => {
     return "No Data";
   }
 
-  const position: [number, number] = [latitude, longitude];
+  const position: [number, number] = [
+    latitude ? latitude : 24.67592,
+    longitude ? longitude : 46.7792,
+  ];
   return (
     <div className="my-20" id="Map">
       <div
