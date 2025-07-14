@@ -4,7 +4,9 @@ import useFormStateSignUp from "../Hooks/FormStateSignUp";
 import DescriptionSignUp from "./DescriptionSignUp";
 
 const FormSignUp = () => {
-  const { fetchHandleSignup, handleSubmit, register } = useFormStateSignUp();
+  const { fetchHandleSignup, handleSubmit, register, isValid } =
+    useFormStateSignUp();
+
   return (
     <div className="w-full flex justify-center items-center h-[90vh]">
       <div className="flex flex-col gap-3 border-2 border-gray-200 hover:shadow-2xl transition-all duration-300 w-[35pc] p-2 rounded-xl shadow-lg">
@@ -21,7 +23,7 @@ const FormSignUp = () => {
               type="text"
               id="userName"
               className="py-2 px-2 border-2 border-gray-200 rounded-xl"
-              {...register("userName")}
+              {...register("userName", { required: true })}
             />
           </p>
 
@@ -33,7 +35,7 @@ const FormSignUp = () => {
               type="email"
               id="Email"
               className="py-2 px-2 border-2 border-gray-200 rounded-xl"
-              {...register("Email")}
+              {...register("Email", { required: true })}
             />
           </p>
 
@@ -45,17 +47,20 @@ const FormSignUp = () => {
               type="password"
               id="Password"
               className="py-2 px-2 border-2 border-gray-200 rounded-xl"
-              {...register("Password")}
+              {...register("Password", { required: true })}
             />
           </p>
 
           <p className="col-span-2 flex flex-col gap-1">
+            <div className="border-1 border-solid border-gray-600 py-4 flex justify-center rounded-xl font-semibold">
+              <h1>By signup I agree to terms and policy</h1>
+            </div>
             <Button
-              Title="By signup I agree to terms and policy"
-              bGround="white"
+              disabled={isValid}
+              Title="SignUp"
+              bGround="#2563eb"
               color="black"
             />
-            <Button Title="SignUp" bGround="#2563eb" color="black" />
           </p>
         </form>
       </div>
