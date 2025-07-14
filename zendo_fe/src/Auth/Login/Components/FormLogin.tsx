@@ -7,7 +7,7 @@ const FormLogin = () => {
     useFormStateLogin();
   return (
     <div className="h-[90vh] flex flex-col items-center justify-center">
-      <div className="flex flex-col gap-3 border-2 border-gray-200 w-[35pc] p-2 rounded-xl shadow-lg">
+      <div className="flex flex-col gap-3 border-2 border-gray-200 w-[35pc] max-sm:w-[25pc] p-2 rounded-xl shadow-lg">
         <DescriptionLogin />
         <form
           onSubmit={handleSubmit(fetchHandleLogin)}
