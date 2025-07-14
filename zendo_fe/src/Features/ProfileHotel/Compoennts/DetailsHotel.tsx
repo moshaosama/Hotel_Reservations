@@ -19,7 +19,7 @@ const DetailsHotel = () => {
           </p>
         </div>
 
-        <div className="mt-5 flex gap-3">
+        <div className="mt-5 flex max-sm:flex-col gap-3">
           <div>
             <img
               src="https://phptravels.net/uploads/184028-28-01-2023-1674874284.jpg"
@@ -28,7 +28,7 @@ const DetailsHotel = () => {
             />
           </div>
 
-          <div className="border-1 border-gray-200 rounded-lg w-96 p-4 flex flex-col justify-between">
+          <div className="border-1 border-gray-200 rounded-lg w-96 p-4 flex flex-col max-sm:gap-5 justify-between">
             <div className="flex justify-between gap-3">
               <div className="border-1 border-gray-200 rounded-lg p-2 w-1/2">
                 <div className="flex items-center gap-1 text-sm">
