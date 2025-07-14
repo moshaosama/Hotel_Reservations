@@ -3,7 +3,8 @@ import useFormStateLogin from "../Hook/fornStateLogin";
 import DescriptionLogin from "./DescriptionLogin";
 
 const FormLogin = () => {
-  const { fetchHandleLogin, handleSubmit, register } = useFormStateLogin();
+  const { fetchHandleLogin, handleSubmit, register, isValid } =
+    useFormStateLogin();
   return (
     <div className="h-[90vh] flex flex-col items-center justify-center">
       <div className="flex flex-col gap-3 border-2 border-gray-200 w-[35pc] p-2 rounded-xl shadow-lg">
@@ -17,7 +18,7 @@ const FormLogin = () => {
             <input
               type="email"
               className="py-2 px-2 border-2 border-gray-200 rounded-xl"
-              {...register("Email")}
+              {...register("Email", { required: true })}
             />
           </p>
 
@@ -26,7 +27,7 @@ const FormLogin = () => {
             <input
               type="password"
               className="py-2 px-2 border-2 border-gray-200 rounded-xl"
-              {...register("Password")}
+              {...register("Password", { required: true })}
             />
           </p>
 
@@ -48,8 +49,18 @@ const FormLogin = () => {
           </div>
 
           <p className="col-span-2 flex flex-col">
-            <Button bGround="#2563eb" color="white" Title="Login" />
-            <Button Title="SignUp" bGround="white" color="#2563eb" />
+            <Button
+              bGround="#2563eb"
+              color="white"
+              Title="Login"
+              disabled={isValid}
+            />
+            <Button
+              Title="SignUp"
+              bGround="white"
+              color="#2563eb"
+              disabled={true}
+            />
           </p>
         </form>
       </div>
