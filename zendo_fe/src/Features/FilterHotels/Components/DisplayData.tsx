@@ -18,12 +18,12 @@ const DisplayData = () => {
           hotelByName?.map((hotel: any) => (
             <div
               key={hotel?.id}
-              className="border-2 border-gray-200 flex items-center gap-7 w-[50pc] rounded-lg"
+              className="border-2 border-gray-200 flex max-sm:flex-col max-sm:items-start items-center gap-7 w-[50pc] max-sm:w-[25.9pc] rounded-lg"
             >
               <img
                 src="https://photos.hotelbeds.com/giata/05/059245/059245a_hb_r_009.jpg"
                 alt="Hotel.png"
-                className="rounded-l-lg w-80"
+                className="rounded-l-lg w-80 max-sm:w-full"
               />
               <div className="w-full flex flex-col gap-3">
                 <div className="flex flex-col gap-1">
