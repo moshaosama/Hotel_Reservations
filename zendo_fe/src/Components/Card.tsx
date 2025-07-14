@@ -11,7 +11,7 @@ const Card = ({
 }) => {
   return (
     <>
-      <div className="border-1 my-20 border-gray-300 shadow-lg p-3 rounded-xl  flex flex-col gap-6">
+      <div className="border-1 my-20 max-sm:mx-3 border-gray-300 shadow-lg p-3 rounded-xl  flex flex-col gap-6">
         <div className="flex justify-center  text-white">
           <i className="bg-blue-500 p-3 rounded-full text-3xl">{Icon}</i>
         </div>
