@@ -9,12 +9,12 @@ const FeatureHotels = () => {
   const { data: Hotels } = useGetHotels();
 
   return (
-    <div className="mt-14">
+    <div className="mt-14 max-sm:mt-[32pc] max-sm:mx-3">
       <div className={cn(Container)}>
         <h1 className="text-2xl font-bold">Featured Hotels</h1>
         <p>These alluring destinations are picked just for you.</p>
 
-        <div className="grid grid-cols-4  mt-10 ">
+        <div className="grid grid-cols-4 max-sm:grid-cols-1  mt-10 ">
           {Hotels?.slice(0, 3)?.map((hotel: any) => (
             <Link
               to={`/hotels/${hotel?.hotel_name}/${hotel.id}`}
@@ -29,7 +29,7 @@ const FeatureHotels = () => {
                   }
                   alt={hotel.name || "Hotel"}
                   loading="lazy"
-                  className="bg-gray-300 w-60  h-60 object-cover hover:scale-110 transition-all duration-500 rounded-lg"
+                  className="bg-gray-300 w-60 max-sm:w-full  h-60 object-cover hover:scale-110 transition-all duration-500 rounded-lg"
                 />
               </div>
               <div className="flex flex-col gap-1">
@@ -58,11 +58,11 @@ const FeatureHotels = () => {
             </Link>
           ))}
 
-          <div className="relative w-72 h-72">
+          <div className="relative w-72 max-sm:w-full h-72 max-sm:h-full">
             <img
               src="https://phptravels.net/assets/img/featured_hotels.png"
               alt="Discover.png"
-              className="bg-gray-300  w-72 h-72 object-cover rounded-lg  hover:scale-110 transition-all duration-500"
+              className="bg-gray-300  w-72 max-sm:w-full h-72 object-cover rounded-lg  hover:scale-110 transition-all duration-500"
             />
             <div className="absolute top-0 w-full h-full bg-gradient-to-b rounded-lg from-transparent to-blue-400"></div>
             <div className="absolute top-36 flex flex-col gap-5">
