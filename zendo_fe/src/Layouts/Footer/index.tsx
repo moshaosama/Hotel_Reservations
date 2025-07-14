@@ -37,7 +37,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="mt-10 flex gap-10 justify-between">
+      <div className="mt-10 flex gap-10 justify-between max-sm:hidden">
         <div className="flex gap-4 items-center">
           <img
             src="/60ebe1aa-5f33-46a3-8a02-3ba22ec05675.png"
