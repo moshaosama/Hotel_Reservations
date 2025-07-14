@@ -1,12 +1,9 @@
 import Button from "../../../Components/Button";
-import useGetUser from "../../../Hooks/useGetUser";
 import useFormStateLogin from "../Hook/fornStateLogin";
 import DescriptionLogin from "./DescriptionLogin";
 
 const FormLogin = () => {
   const { fetchHandleLogin, handleSubmit, register } = useFormStateLogin();
-  const { User } = useGetUser();
-
   return (
     <div className="h-[90vh] flex flex-col items-center justify-center">
       <div className="flex flex-col gap-3 border-2 border-gray-200 w-[35pc] p-2 rounded-xl shadow-lg">
