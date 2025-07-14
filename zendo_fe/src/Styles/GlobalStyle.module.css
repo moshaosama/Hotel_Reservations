@@ -1,3 +1,9 @@
 .Container {
   margin: 1pc 25pc;
 }
+
+@media (width < 40rem) {
+  .Container {
+    margin: 1pc 0pc;
+  }
+}
