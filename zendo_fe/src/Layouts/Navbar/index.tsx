@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div className="bg-white sticky top-0 z-50 py-2 w-full">
       <div className={cn(Container, "flex justify-between items-center")}>
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-6 max-sm:mx-4">
           <Link to={"/"}>
             <img
               src="/60ebe1aa-5f33-46a3-8a02-3ba22ec05675.png"
@@ -24,16 +24,18 @@ const Navbar = () => {
               className="w-10 rounded-lg"
             />
           </Link>
-          {NavbarLinks?.map((links: { name: string }) => (
-            <div
-              key={links.name}
-              className="hover:border-b-4 hover:border-b-blue-900"
-            >
-              <NavLink to={links.name.toLowerCase()}>{links.name}</NavLink>
-            </div>
-          ))}
+          <div className="flex gap-6 max-sm:hidden items-center">
+            {NavbarLinks?.map((links: { name: string }) => (
+              <div
+                key={links.name}
+                className="hover:border-b-4 hover:border-b-blue-900"
+              >
+                <NavLink to={links.name.toLowerCase()}>{links.name}</NavLink>
+              </div>
+            ))}
+          </div>
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 max-sm:hidden">
           <div className="relative">
             <div
               onClick={handleTriggerOpenHistory}
