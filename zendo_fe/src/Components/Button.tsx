@@ -1,33 +1,29 @@
 import { cn } from "../libs/cn";
 
-const Button = ({
-  color,
-  bGround,
-  Title,
-  isDisable = false,
-}: {
+interface ButtonProps {
   color: string;
   bGround: string;
   Title: string;
-  isDisable?: boolean;
-}) => {
+  disabled?: boolean;
+}
+
+const Button = ({ color, bGround, Title, disabled }: ButtonProps) => {
   return (
-    <>
-      <button
-        disabled={isDisable}
-        className={cn(
-          "block py-3 rounded-xl  text-lg mt-4 font-semibold hover:bg-black hover:text-white",
-          isDisable ? "cursor-not-allowed" : "cursor-pointer"
-        )}
-        style={{
-          color: color,
-          backgroundColor: bGround,
-          border: `1px solid ${color}`,
-        }}
-      >
-        {Title}
-      </button>
-    </>
+    <button
+      className={cn(
+        "block py-3 rounded-xl text-lg mt-4 font-semibold transition-all duration-300",
+        disabled
+          ? "hover:bg-black hover:text-white cursor-pointer"
+          : "cursor-not-allowed opacity-50"
+      )}
+      style={{
+        color: color,
+        backgroundColor: bGround,
+        border: `1px solid ${color}`,
+      }}
+    >
+      {Title}
+    </button>
   );
 };
 
