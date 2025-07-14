@@ -11,6 +11,38 @@ const useFilterHotels = () => {
     queryKey: ["hotelByCity", hotel_name],
     queryFn: () => hotelService.getHotelByCity(hotel_name as string),
     enabled: !!hotel_name,
+    initialData: [
+      {
+        id: 802,
+        hotel_id: 15239002,
+        hotel_name: "Shaza Riyadh",
+        SOURCE: "Booking.com",
+        price: 978.75,
+        base_price: 753.75,
+        checkIn: "2025-02-09",
+        checkOut: "2025-02-10",
+        count: 176,
+        rating: 4.5,
+        Info: ["Free breakfast available", "Free cancellation"],
+        latitude: 24.67592,
+        longitude: 46.7792,
+      },
+      {
+        id: 800,
+        hotel_id: 24143026,
+        hotel_name: "Joudyan Hotel",
+        SOURCE: "Booking.com",
+        price: 963.75,
+        base_price: 840.0,
+        checkIn: "2025-02-09",
+        checkOut: "2025-02-10",
+        count: 317,
+        rating: 5.0,
+        Info: ["Free breakfast available", "Free cancellation"],
+        latitude: 24.71355,
+        longitude: 46.675297,
+      },
+    ],
   });
   const handleFilterationHotel = async (data?: any) => {
     Navigate(`/hotels/${data?.hotel_name}`);
