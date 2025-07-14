@@ -10,9 +10,6 @@ const ShowMap = () => {
 
   const latitude = Number(hotelById?.latitude);
   const longitude = Number(hotelById?.longitude);
-  if (!latitude && !longitude) {
-    return "No Data";
-  }
 
   const position: [number, number] = [
     latitude ? latitude : 24.67592,
